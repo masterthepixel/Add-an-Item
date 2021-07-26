@@ -1,10 +1,10 @@
 import webpack from "webpack";
 import ESLintPlugin from "eslint-webpack-plugin";
-const path = require("path");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
-const FaviconsWebpackPlugin = require("favicons-webpack-plugin");
+import path from "path";
+import HtmlWebpackPlugin from "html-webpack-plugin";
+import FaviconsWebpackPlugin from "favicons-webpack-plugin";
 
-module.exports = {
+export default {
   entry: {
     app: "./src/index.tsx",
   },

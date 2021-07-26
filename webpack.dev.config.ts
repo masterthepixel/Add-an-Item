@@ -2,6 +2,8 @@ import path from "path";
 import { Configuration as WebpackConfiguration } from "webpack";
 import { Configuration as WebpackDevServerConfiguration } from "webpack-dev-server";
 import { merge } from "webpack-merge";
+
+/* eslint-disable @typescript-eslint/no-var-requires */
 const common = require("./webpack.common");
 
 interface Configuration extends WebpackConfiguration {
