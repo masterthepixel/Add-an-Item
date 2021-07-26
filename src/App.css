@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "Merriweather-Italic";
+  font-style: italic;
+  font-weight: 200;
+  src: url("./assets/fonts/Merriweather-LightItalic.ttf") format("truetype");
+}
+
+::placeholder {
+  color: var(--placeholder);
+  opacity: 1;
+}
+
+:root {
+  --dark-blue: rgb(74, 89, 107);
+  --main-gray: rgb(120, 130, 142);
+  --light-gray: rgb(187, 192, 198);
+  --dark-gray: rgb(154, 161, 170);
+  --main-white: rgb(242, 243, 244);
+  --main-green: rgb(126, 221, 210);
+  --placeholder: rgb(200, 202, 208);
+}
+
+body {
+  font-family: Helvetica;
+  margin: 0;
+}
+
+#app {
+  background-color: var(--main-gray);
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+}
